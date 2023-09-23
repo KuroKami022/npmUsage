@@ -1,0 +1,33 @@
+{
+  "name": "npmusage",
+  "version": "1.0.0",
+  "description": "using npm to manage packages and dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "node": "node src/index.js && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KuroKami022/npmUsage.git"
+  },
+  "keywords": [
+    "javascript",
+    "angular",
+    "node"
+  ],
+  "author": "Luis Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KuroKami022/npmUsage/issues"
+  },
+  "homepage": "https://github.com/KuroKami022/npmUsage#readme",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "moment": "^2.29.4",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  }
+}
